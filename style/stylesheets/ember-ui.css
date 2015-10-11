@@ -1,4 +1,4 @@
-/* line 5, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../.rvm/gems/ruby-2.2.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -774,584 +774,73 @@ textarea {
 /*===========================================================================
    Ember UI
 ============================================================================= */
-/* line 13, ../sass/ember-ui.scss */
-.push_top {
-  margin-top: 6.63265%;
-}
-
-/* line 21, ../sass/ember-ui.scss */
-.flex-item {
-  border: 1px solid green;
-  width: 200px;
-}
-
-/* line 26, ../sass/ember-ui.scss */
-.flex-row {
-  display: -webkit-flex;
-  display: flex;
-  border: 1px solid red;
-  height: 400px;
+/* line 6, ../sass/ember-ui.scss */
+.flex_row {
+  width: 100%;
   max-width: 980px;
   min-width: 320px;
   margin: 0 auto;
-}
-
-/* centered content in the middle */
-/* line 36, ../sass/ember-ui.scss */
-.centered-content {
-  border: 1px solid red;
+  height: 400px;
   display: -webkit-flex;
   display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
 }
 
-/* ==========================================================================
-   General Settings
-   ========================================================================== */
-/**
- * Address General settings for the page and reusable classes.
- * Address font container for general use
- */
-/* line 49, ../sass/ember-ui.scss */
-* {
-  margin: 0;
-  padding: 0;
+/* line 14, ../sass/ember-ui.scss */
+.row .one.columns {
+  width: 6.38298%;
 }
 
-/* line 54, ../sass/ember-ui.scss */
-html, body {
-  height: 100%;
+/* line 17, ../sass/ember-ui.scss */
+.two.columns {
+  width: 14.89362%;
+}
+
+/* line 20, ../sass/ember-ui.scss */
+.three.columns {
+  width: 23.40426%;
+}
+
+/* line 23, ../sass/ember-ui.scss */
+.four.columns {
+  width: 31.91489%;
+}
+
+/* line 26, ../sass/ember-ui.scss */
+.five.columns {
+  width: 40.42553%;
+}
+
+/* line 29, ../sass/ember-ui.scss */
+.six.columns {
+  width: 48.93617%;
+}
+
+/* line 32, ../sass/ember-ui.scss */
+.seven.columns {
+  width: 57.44681%;
+}
+
+/* line 35, ../sass/ember-ui.scss */
+.eight.columns {
+  width: 65.95745%;
+}
+
+/* line 38, ../sass/ember-ui.scss */
+.nine.columns {
+  width: 74.46809%;
+}
+
+/* line 41, ../sass/ember-ui.scss */
+.ten.columns {
+  width: 82.97872%;
+}
+
+/* line 44, ../sass/ember-ui.scss */
+.eleven.columns {
+  width: 91.48936%;
+}
+
+/* line 47, ../sass/ember-ui.scss */
+.twelve.columns {
   width: 100%;
-  color: #000;
-  font-family: sans-serif;
-}
-
-/* line 61, ../sass/ember-ui.scss */
-li, a {
-  list-style-type: none;
-  color: #000;
-  text-decoration: none;
-}
-
-/* line 67, ../sass/ember-ui.scss */
-hr {
-  border: none;
-  height: 1px;
-  color: #343536;
-  background-color: #343536;
-}
-
-/* line 73, ../sass/ember-ui.scss */
-h6 {
-  text-align: center;
-  padding: 4px 0;
-}
-
-/* line 78, ../sass/ember-ui.scss */
-input[type=search] {
-  padding: 7px 15px 7px 15px;
-  border-radius: 15px;
-  border: 1px solid #dbdbdb;
-}
-
-/* line 84, ../sass/ember-ui.scss */
-input[type=search]:focus {
-  outline: none;
-  box-shadow: inset 0 5px 10px #DDDED8;
-}
-
-/* line 88, ../sass/ember-ui.scss */
-.rotate-left {
-  position: absolute;
-  color: #2b94c2;
-  font-weight: 400;
-  left: -10%;
-  top: 30%;
-  -ms-transform: rotate(270deg);
-  -moz-transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
-  -o-transform: rotate(270deg);
-}
-
-/* line 99, ../sass/ember-ui.scss */
-.rotate-right {
-  position: absolute;
-  color: #2b94c2;
-  font-weight: 400;
-  right: -10%;
-  top: 30%;
-  -ms-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-}
-
-/* line 110, ../sass/ember-ui.scss */
-.bottom-h3 {
-  top: 75%;
-}
-
-/* line 112, ../sass/ember-ui.scss */
-.blueText {
-  color: #2b94c2;
-}
-
-/* line 114, ../sass/ember-ui.scss */
-.ci {
-  width: 120px;
-  height: 120px;
-  border-radius: 90px;
-  background-color: rgba(255, 255, 255, 0.3);
-  position: absolute;
-  right: 0;
-  bottom: 15%;
-}
-
-/* line 124, ../sass/ember-ui.scss */
-.ci img {
-  width: 50%;
-  position: relative;
-  padding-top: 15%;
-  padding-left: 25%;
-}
-
-/* line 130, ../sass/ember-ui.scss */
-.fr {
-  float: right;
-}
-
-/* line 132, ../sass/ember-ui.scss */
-.container {
-  width: 100%;
-  max-width: 1070px;
-  position: relative;
-  height: auto;
-  margin: 0 auto;
-}
-
-/**icons in pure css
-*/
-/* line 142, ../sass/ember-ui.scss */
-.circle-plus {
-  height: 5em;
-  width: 5em;
-  font-size: .1em;
-  margin: 25px auto;
-}
-
-/* line 148, ../sass/ember-ui.scss */
-.circle-plus .circle {
-  position: relative;
-  width: 4.5em;
-  height: 4.5em;
-  border-radius: 100%;
-  border: .4em solid #fff;
-}
-
-/* line 155, ../sass/ember-ui.scss */
-.circle-plus .circle .horizontal {
-  position: absolute;
-  background-color: #fff;
-  width: 2.4em;
-  height: .6em;
-  top: 1.9em;
-  left: 1.05em;
-}
-
-/* line 163, ../sass/ember-ui.scss */
-.circle-plus .circle .vertical {
-  position: absolute;
-  background-color: #fff;
-  width: .6em;
-  height: 2.4em;
-  top: 1.05em;
-  left: 1.9em;
-}
-
-/* line 171, ../sass/ember-ui.scss */
-.textmiddle {
-  vertical-align: top;
-  display: inline-block;
-}
-
-/* line 175, ../sass/ember-ui.scss */
-.phone-icon {
-  display: inline-block;
-  position: absolute;
-  top: 5px;
-  margin-left: 4%;
-}
-
-/*End*/
-/* ==========================================================================
-                          Top Container
-   ========================================================================== */
-/* line 189, ../sass/ember-ui.scss */
-.top-container {
-  height: auto;
-  width: 100%;
-  background: url(img/large.jpg) no-repeat center;
-  background-size: cover;
-}
-
-/*=================Top Nav Bar==================*/
-/* line 197, ../sass/ember-ui.scss */
-nav {
-  background-color: #fff;
-  display: block;
-}
-
-/* line 202, ../sass/ember-ui.scss */
-nav li {
-  padding: 13px 15px 13px 15px;
-  display: inline-block;
-  border-right: 1px solid #dbdbdb;
-  text-transform: capitalize;
-  background-color: #fff;
-}
-
-/* line 210, ../sass/ember-ui.scss */
-nav li:last-child {
-  background-color: #2b94c2;
-  border: none;
-  margin: 0;
-  padding: 14px;
-  font-size: 0.9em;
-  text-transform: uppercase;
-}
-
-/*this wiil fix border and padding 
-around the search box*/
-/* line 220, ../sass/ember-ui.scss */
-nav li:nth-child(8) {
-  padding: 0 25px 0 25px;
-  border: none;
-}
-
-/* line 225, ../sass/ember-ui.scss */
-nav li:last-child a {
-  color: #fff;
-}
-
-/*=========mobile Nav bar animation=======*/
-/* line 229, ../sass/ember-ui.scss */
-.toggle {
-  display: none;
-}
-
-/* line 231, ../sass/ember-ui.scss */
-.toggle {
-  width: 28px;
-  height: 30px;
-  position: absolute;
-  right: 0;
-  top: 0;
-  margin: 10px;
-}
-
-/* line 240, ../sass/ember-ui.scss */
-.toggle div {
-  width: 100%;
-  height: 5px;
-  background: #2b94c2;
-  margin: 4px auto;
-  transition: all 0.3s;
-  backface-visibility: hidden;
-}
-
-/* line 249, ../sass/ember-ui.scss */
-.toggle.on .one {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-/* line 253, ../sass/ember-ui.scss */
-.toggle.on .two {
-  opacity: 0;
-}
-
-/* line 257, ../sass/ember-ui.scss */
-.toggle.on .three {
-  transform: rotate(-45deg) translate(7px, -8px);
-}
-
-/*mobile Nav bar animation*/
-/* line 262, ../sass/ember-ui.scss */
-section {
-  padding: 5% 0;
-}
-
-/* line 264, ../sass/ember-ui.scss */
-section h1 {
-  font-size: 3.6em;
-  text-transform: uppercase;
-}
-
-/* line 269, ../sass/ember-ui.scss */
-section p {
-  padding: 20px 0;
-  font-weight: 200;
-  line-height: 200%;
-}
-
-/* line 275, ../sass/ember-ui.scss */
-section li {
-  margin: 5px 0;
-  border: 4px solid #000;
-  padding: 12px 18px 12px 18px;
-  display: inline-block;
-  text-transform: uppercase;
-  font-weight: 900;
-}
-
-/* line 284, ../sass/ember-ui.scss */
-section li:last-child {
-  border: 4px solid #2b94c2;
-  margin-left: 20px;
-}
-
-/* ==========================================================================
-                          Main Container
-   ========================================================================== */
-/* line 293, ../sass/ember-ui.scss */
-.main-container {
-  clear: both;
-  position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-  padding: 40px 0;
-}
-
-/* line 301, ../sass/ember-ui.scss */
-.main-container h1 {
-  line-height: 180%;
-}
-
-/* line 303, ../sass/ember-ui.scss */
-.lower-nav li {
-  float: left;
-  width: 20%;
-  padding: 67px 0;
-  text-align: center;
-  background: #2786af;
-  color: #fff;
-  font-size: 1.1em;
-  line-height: 130%;
-  font-weight: 100;
-  min-height: 80px;
-  max-height: 80px;
-  cursor: pointer;
-}
-
-/* line 318, ../sass/ember-ui.scss */
-.lower-nav ul li:nth-child(2),
-.lower-nav ul li:nth-child(4) {
-  background-color: #2b94c2;
-}
-
-/* line 322, ../sass/ember-ui.scss */
-.gallery li {
-  width: 45%;
-  height: 20%;
-  margin: 30px 0;
-  display: inline-block;
-}
-
-/* line 328, ../sass/ember-ui.scss */
-.gallery > li > img {
-  height: 30%;
-  width: 100%;
-}
-
-/*
-blockquote slider style
-==========================================
-*/
-/* line 336, ../sass/ember-ui.scss */
-.bottom-slider {
-  height: 250px;
-  position: relative;
-  background-color: #2b94c2;
-}
-
-/* line 341, ../sass/ember-ui.scss */
-.next {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  right: 0;
-  width: 30px;
-  height: 100%;
-  background-color: #2786af;
-}
-
-/* line 350, ../sass/ember-ui.scss */
-.next a {
-  position: relative;
-  top: 50%;
-  padding-left: 3px;
-}
-
-/* line 356, ../sass/ember-ui.scss */
-.slider {
-  height: 100%;
-}
-
-/* line 358, ../sass/ember-ui.scss */
-.slider li {
-  width: 100%;
-  display: none;
-  top: 25%;
-  position: absolute;
-}
-
-/* line 365, ../sass/ember-ui.scss */
-blockquote {
-  color: #fff;
-  font-size: 1.2em;
-  font-weight: 100;
-  line-height: 150%;
-  text-align: center;
-  margin: 0 auto;
-}
-
-/* line 373, ../sass/ember-ui.scss */
-blockquote cite {
-  line-height: 400%;
-}
-
-/* ==========================================================================
-                          Footer
-   ========================================================================== */
-/* line 379, ../sass/ember-ui.scss */
-footer {
-  clear: both;
-  background-color: #15317E;
-  width: 100%;
-  height: auto;
-  background-color: #252627;
-  position: relative;
-}
-
-/* line 388, ../sass/ember-ui.scss */
-footer li {
-  padding: 20px 10px 10px 10px;
-  display: inline-block;
-  text-transform: capitalize;
-  color: #fff;
-  font-weight: 100;
-}
-
-/* line 395, ../sass/ember-ui.scss */
-.child-footer {
-  overflow: hidden;
-}
-
-/* line 399, ../sass/ember-ui.scss */
-.right {
-  font-size: 0.8em;
-  text-align: right;
-  width: 50%;
-}
-
-/* line 401, ../sass/ember-ui.scss */
-.left {
-  font-size: 0.8em;
-  width: 45%;
-}
-
-/***==========================================================================
-                          mobile Settings
-***==========================================================================***/
-/**
- * Address General settings for all the mobile divices
- * xlarge screens are at least 960dp x 720dp.
- *large screens are at least 640dp x 480dp.
- *normal screens are at least 470dp x 320dp.
- *small screens are at least 426dp x 320dp
- **/
-@media only screen and (max-width: 780px) {
-  /* line 415, ../sass/ember-ui.scss */
-  body {
-    font-size: .7em;
-  }
-
-  /* line 417, ../sass/ember-ui.scss */
-  .rd li {
-    width: 100%;
-  }
-
-  /* line 419, ../sass/ember-ui.scss */
-  .wrapper {
-    padding: 0;
-  }
-
-  /* line 421, ../sass/ember-ui.scss */
-  .ci {
-    display: none;
-  }
-
-  /* line 423, ../sass/ember-ui.scss */
-  .toggle {
-    display: block;
-  }
-
-  /* line 425, ../sass/ember-ui.scss */
-  nav {
-    display: none;
-  }
-
-  /* line 427, ../sass/ember-ui.scss */
-  .right, .left {
-    text-align: center;
-    width: 100%;
-  }
-
-  /* line 433, ../sass/ember-ui.scss */
-  nav ul li, nav ul li:last-child {
-    margin: 10px 0;
-    display: block;
-    text-align: center;
-    float: none;
-  }
-
-  /* line 439, ../sass/ember-ui.scss */
-  .gallery h3 {
-    position: relative;
-    text-align: center;
-    top: 0;
-    right: 0;
-    left: 0;
-    -ms-transform: rotate(0);
-    -moz-transform: rotate(0);
-    -webkit-transform: rotate(0);
-    -o-transform: rotate(0);
-  }
-
-  /* line 450, ../sass/ember-ui.scss */
-  section li {
-    display: block;
-    text-align: center;
-    margin-left: 0 !important;
-  }
-}
-/***====================================================
-          for bigger screens 
-***====================================================***/
-@media only screen and (max-width: 1050px) {
-  /* line 460, ../sass/ember-ui.scss */
-  nav li {
-    padding-left: 2px;
-    padding-right: 2px;
-  }
-
-  /* line 461, ../sass/ember-ui.scss */
-  nav ul li:last-child {
-    padding: 10px;
-  }
-
-  /* line 464, ../sass/ember-ui.scss */
-  nav li:nth-child(8) {
-    padding: 0;
-  }
 }
